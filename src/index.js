@@ -3,7 +3,7 @@ import * as Styled from './styled';
 
 const HelloComponent = () => (
   <Styled.Wrapper>
-    <h1>Hello</h1>
+          <h1>Hello</h1>
   </Styled.Wrapper>
 );
 
