@@ -1,10 +1,3 @@
-import * as React from 'react';
-import * as Styled from './styled';
+import Hello from './components/Hello';
 
-const HelloComponent = () => (
-  <Styled.Wrapper>
-    <h1>Hello</h1>
-  </Styled.Wrapper>
-);
-
-export default HelloComponent;
+export default Hello;
