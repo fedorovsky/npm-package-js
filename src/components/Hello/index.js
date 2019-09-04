@@ -1,11 +1,12 @@
 import * as React from 'react';
+import Title from 'components/Title';
 import * as Styled from './styled';
 
 console.log('hello');
 
 const HelloComponent = () => (
   <Styled.Wrapper>
-    <h1>Hello</h1>
+    <Title />
   </Styled.Wrapper>
 );
 
