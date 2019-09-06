@@ -10,7 +10,7 @@ module.exports = {
             loader: require.resolve('@storybook/addon-storysource/loader'),
             options: {
               prettierConfig: {
-                parser: 'babylon',
+                parser: 'babel',
               },
             },
           },
