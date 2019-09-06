@@ -12,8 +12,8 @@
     "build": "babel ./src --out-dir ./dist",
     "clean": "rimraf ./dist",
     "dev": "babel ./src --out-dir ./dist --watch",
-    "prod": "npm-run-all clean build",
-    "storybook": "start-storybook --port 9000"
+    "prod": "cross-env BABEL_ENV=production npm-run-all clean build",
+    "storybook": "start-storybook --port 5000"
   },
   "dependencies": {
     "react": "^16.9.0",
