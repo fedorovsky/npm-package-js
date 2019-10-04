@@ -1,3 +1,5 @@
-test('Fake Test', () => {
-  expect(true).toBeTruthy();
+describe('<Hello />', () => {
+  it('Fake Test', () => {
+    expect(true).toBeTruthy();
+  });
 });
