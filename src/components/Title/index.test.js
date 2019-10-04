@@ -1,12 +1,15 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
+import { expect } from 'chai';
 import Title from './index';
 
-test('Render without crashing', () => {
-  shallow(<Title />);
-});
+describe('<Title />', () => {
+  it('Render without crashing', () => {
+    shallow(<Title />);
+  });
 
-test('Text', () => {
-  const wrapper = shallow(<Title />);
-  expect(wrapper.text()).toEqual('Hello');
+  it('Contain text', () => {
+    const wrapper = mount(<Title>Hello</Title>);
+    expect(wrapper.text()).to.equal('Hello');
+  });
 });
