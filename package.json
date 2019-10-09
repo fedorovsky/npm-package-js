@@ -57,6 +57,9 @@
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>src/setupTests.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/dist"
     ]
   }
 }

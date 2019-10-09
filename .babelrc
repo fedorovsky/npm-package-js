@@ -16,7 +16,7 @@
     "development": {},
     "production": {
       "presets": ["minify"],
-      "ignore": ["node_modules", "**/stories"]
+      "ignore": ["node_modules", "**/stories", "**/__tests__", "**/*.test.js"]
     }
   }
 }
